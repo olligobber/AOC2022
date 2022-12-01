@@ -5,7 +5,13 @@ version:            0.1.0.0
 author:             olligobber
 maintainer:         sirolligobbervii@yahoo.com.au
 
+data-files:         inputs/*
+
+common shared-props
+    ghc-options:      -dynamic
+
 executable Day1Part1
+    import:           shared-props
     main-is:          Day1Part1.hs
     build-depends:    base ^>=4.15.1.0
                     , split ^>= 0.2.3.5
@@ -13,6 +19,7 @@ executable Day1Part1
     default-language: Haskell2010
 
 executable Day1Part2
+    import:           shared-props
     main-is:          Day1Part2.hs
     build-depends:    base ^>=4.15.1.0
                     , split ^>= 0.2.3.5
