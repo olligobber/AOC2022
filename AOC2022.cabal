@@ -7,33 +7,64 @@ maintainer:         sirolligobbervii@yahoo.com.au
 
 common shared-props
     ghc-options:      -dynamic
+                      -Wno-tabs
 
-executable Day1Part1
+executable D1P1
     import:           shared-props
-    main-is:          Day1Part1.hs
+    main-is:          D1P1.hs
     build-depends:    base ^>=4.15.1.0
                     , split ^>= 0.2.3.5
     hs-source-dirs:   app
     default-language: Haskell2010
 
-executable Day1Part2
+executable D1P2
     import:           shared-props
-    main-is:          Day1Part2.hs
+    main-is:          D1P2.hs
     build-depends:    base ^>=4.15.1.0
                     , split ^>= 0.2.3.5
     hs-source-dirs:   app
     default-language: Haskell2010
 
-executable Day2Part1
+executable D2P1
     import:           shared-props
-    main-is:          Day2Part1.hs
+    main-is:          D2P1.hs
     build-depends:    base ^>=4.15.1.0
     hs-source-dirs:   app
     default-language: Haskell2010
 
-executable Day2Part2
+executable D2P2
     import:           shared-props
-    main-is:          Day2Part2.hs
+    main-is:          D2P2.hs
     build-depends:    base ^>=4.15.1.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable D3P1
+    import:           shared-props
+    main-is:          D3P1.hs
+    build-depends:    base ^>=4.15.1.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable D3P2
+    import:           shared-props
+    main-is:          D3P2.hs
+    build-depends:    base ^>=4.15.1.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable D4P1
+    import:           shared-props
+    main-is:          D4P1.hs
+    build-depends:    base ^>=4.15.1.0
+                    , split ^>= 0.2.3.5
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable D4P2
+    import:           shared-props
+    main-is:          D4P2.hs
+    build-depends:    base ^>=4.15.1.0
+                    , split ^>= 0.2.3.5
     hs-source-dirs:   app
     default-language: Haskell2010
