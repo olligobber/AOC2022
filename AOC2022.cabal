@@ -68,3 +68,21 @@ executable D4P2
                     , split ^>= 0.2.3.5
     hs-source-dirs:   app
     default-language: Haskell2010
+
+executable D5P1
+    import:           shared-props
+    main-is:          D5P1.hs
+    build-depends:    base ^>=4.15.1.0
+                    , containers ^>= 0.6.6
+                    , split ^>= 0.2.3.5
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable D5P2
+    import:           shared-props
+    main-is:          D5P2.hs
+    build-depends:    base ^>=4.15.1.0
+                    , containers ^>= 0.6.6
+                    , split ^>= 0.2.3.5
+    hs-source-dirs:   app
+    default-language: Haskell2010
