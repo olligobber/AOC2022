@@ -86,3 +86,17 @@ executable D5P2
                     , split ^>= 0.2.3.5
     hs-source-dirs:   app
     default-language: Haskell2010
+
+executable D6P1
+    import:           shared-props
+    main-is:          D6P1.hs
+    build-depends:    base ^>=4.15.1.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable D6P2
+    import:           shared-props
+    main-is:          D6P2.hs
+    build-depends:    base ^>=4.15.1.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
