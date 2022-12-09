@@ -134,3 +134,21 @@ executable D8P2
                     , containers ^>= 0.6.6
     hs-source-dirs:   app
     default-language: Haskell2010
+
+executable D9P1
+    import:           shared-props
+    main-is:          D9P1.hs
+    build-depends:    base ^>=4.15.1.0
+                    , containers ^>= 0.6.6
+                    , mtl ^>= 2.3.1
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable D9P2
+    import:           shared-props
+    main-is:          D9P2.hs
+    build-depends:    base ^>=4.15.1.0
+                    , containers ^>= 0.6.6
+                    , mtl ^>= 2.3.1
+    hs-source-dirs:   app
+    default-language: Haskell2010
